@@ -1,0 +1,215 @@
+﻿body {
+    margin:0;
+    padding:0;
+    overflow-x:hidden;
+}
+
+
+/* Global: 
+    font-family: 'Rock Salt', cursive;
+    'East Sea Dokdo', cursive
+    Light gray background: #fafafa
+    Text shadow grey: #D3D3D3
+*/
+
+
+/* MASTER PAGE */
+nav {
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    font-family: 'Rock Salt', cursive;
+}
+
+nav a {
+    text-decoration:none;
+    color:white;
+}
+
+.navBox {
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+}
+
+.navLogo {
+    align-items:center;
+    width: 25%;
+}
+.navLogo a {
+    font-size: 1.4em;
+}
+
+.navLinks {
+    width:40%;
+}
+.navLinks {
+    font-size:1em;
+}
+
+.navLinks a:hover {
+    animation: linkshadow 0.6s;
+    text-shadow: -2px -2px 5px #D3D3D3
+}
+
+@keyframes linkshadow {
+    from {text-shadow: none;}
+    to {text-shadow: -2px -2px 5px #D3D3D3;}
+}
+
+footer {
+    background-color: black;
+    font-family: 'East Sea Dokdo', cursive;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 125px;
+}
+.footerBox {
+    width:30%;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-around;
+    align-items:center;
+    padding:5px;
+    margin:5px;
+}
+
+.flexRow {
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+    align-items:center;
+    width:50%
+}
+.flexRow i {
+    font-size:2em;
+}
+
+
+
+
+.footerBox p, .footerBox a {
+    text-decoration:none;
+    color:white;
+    font-size:1.5em;
+}
+
+.footerPic {
+    background-image:url("Images/owenPic.jpg");
+    background-size:cover;
+    background-position:center;
+    height:75px;
+    width:75px;
+    border-radius:50%;
+    border:2px solid white;
+}
+
+.footerBox a:hover {
+    animation: linkshadow 0.6s; /*^^ This animation is above a ways ^^*/
+    text-shadow: -2px -2px 5px #D3D3D3
+}
+
+
+/*DEFAULT PAGE*/
+.contentContainer {
+    background-color: #fafafa;
+    width:100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom:20px;
+}
+
+.graffitiWall {
+    border: solid black 3px;
+    background-color: white;
+    border-radius:5px;
+    min-height: 400px;
+    width: 60%;
+    min-width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:10px;
+}
+
+.graffitiText {
+    font-family: 'Rock Salt', cursive;
+    text-align:center;
+    font-size:1.5em;
+    text-shadow: 0px 0px 2px grey;
+}
+
+.buttonsContainer {
+    width: 50%;
+    min-width: 400px;
+    min-height: 125px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.specialButton {
+    font-size: 1em;
+    font-family: 'Rock Salt', cursive;
+    color:white;
+    background-color:black;
+    border-radius:5px;
+}
+
+.specialButton:hover {
+    box-shadow: inset 0px 0px 5px 0px #D3D3D3;
+}
+
+.specialButton:active {
+    box-shadow: inset 0px 0px 10px 1px #D3D3D3;
+}
+
+
+
+/* ADD PAGE */
+.specialTextBox {
+    width:40%;
+    height:100px;
+    font-size:1.2em;
+    font-family:Arial, Helvetica, sans-serif;
+    font-family:'East Sea Dokdo', cursive;
+    padding:5px;
+    border:solid black 2px;
+    border-radius:5px;
+    
+}
+
+.statusLabel {
+    font-family: 'Rock Salt', cursive;
+    font-size: 1em;
+    text-shadow: 0px 0px 2px grey;
+    justify-self:flex-end;
+}
+
+.statusDiv {
+    min-height:50px;
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+    margin:0;
+    padding:2px;
+}
+
+
+
+
+
+
