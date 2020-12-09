@@ -23,7 +23,13 @@
         timestamp = DateTime.Now
 
         If String.IsNullOrEmpty(message) Then
-            lblStatus.Text = "Type Something..."
+            If lblStatus.Text = "Type Something..." Then
+                lblStatus.Text = "Come on, Type Something..."
+            ElseIf lblStatus.Text = "Come on, Type Something..." Then
+                lblStatus.Text = "Just Type Something Already!"
+            Else
+                lblStatus.Text = "Type Something..."
+            End If
         Else
             cn.Open()
             Dim cmd As New Data.SqlClient.SqlCommand(("INSERT INTO Messages (MessageContent, MessageTimestamp) VALUES ('" & message & "', '" & timestamp & "')"), cn)

@@ -21,7 +21,7 @@
         </div>
         <div class="buttonsContainer">
             
-            <asp:Button ID="btnAdd" runat="server" Text="Add Graffiti" CssClass="specialButton" />
+            <asp:Button ID="btnAdd" runat="server" Text=" Add " CssClass="specialButton" />
 
             
 
