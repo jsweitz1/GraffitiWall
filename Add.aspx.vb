@@ -1,6 +1,7 @@
 ﻿Public Class Add
     Inherits System.Web.UI.Page
-    Dim cn As New Data.SqlClient.SqlConnection("Data Source=(LocalDB)\MSSQLLocalDB;AttachDBFilename=|DataDirectory|\GraffitiDB.mdf;Integrated Security=True")
+    Dim cn As New Data.SqlClient.SqlConnection("Data Source=tcp:graffitiwalldbserver.database.windows.net,1433;Initial Catalog=GraffitiWall_db;User Id=jsweitz1@graffitiwalldbserver;Password=ASA732!ASA732!")
+
 
     Protected Sub btnClear_Click(sender As Object, e As EventArgs) Handles btnClear.Click
         tbAdd.Text = ""

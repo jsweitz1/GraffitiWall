@@ -1,6 +1,6 @@
 ﻿Public Class _Default
     Inherits System.Web.UI.Page
-    Dim cn As New Data.SqlClient.SqlConnection("Data Source=(LocalDB)\MSSQLLocalDB;AttachDBFilename=|DataDirectory|\GraffitiDB.mdf;Integrated Security=True")
+    Dim cn As New Data.SqlClient.SqlConnection("Data Source=tcp:graffitiwalldbserver.database.windows.net,1433;Initial Catalog=GraffitiWall_db;User Id=jsweitz1@graffitiwalldbserver;Password=ASA732!ASA732!")
 
 
     Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load

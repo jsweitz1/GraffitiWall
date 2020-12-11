@@ -61,3 +61,7 @@ C:\Users\owens.LAPTOP-BB0UF7TC\Desktop\Programming\GraffitiWall\GraffitiWall\Gra
 C:\Users\owens.LAPTOP-BB0UF7TC\Desktop\Programming\GraffitiWall\GraffitiWall\GraffitiWall\obj\Debug\GraffitiWall.dll
 C:\Users\owens.LAPTOP-BB0UF7TC\Desktop\Programming\GraffitiWall\GraffitiWall\GraffitiWall\obj\Debug\GraffitiWall.xml
 C:\Users\owens.LAPTOP-BB0UF7TC\Desktop\Programming\GraffitiWall\GraffitiWall\GraffitiWall\obj\Debug\GraffitiWall.pdb
+C:\Users\owens.LAPTOP-BB0UF7TC\Desktop\Programming\GraffitiWall\GraffitiWall\GraffitiWall\bin\EntityFramework.dll
+C:\Users\owens.LAPTOP-BB0UF7TC\Desktop\Programming\GraffitiWall\GraffitiWall\GraffitiWall\bin\EntityFramework.SqlServer.dll
+C:\Users\owens.LAPTOP-BB0UF7TC\Desktop\Programming\GraffitiWall\GraffitiWall\GraffitiWall\bin\EntityFramework.xml
+C:\Users\owens.LAPTOP-BB0UF7TC\Desktop\Programming\GraffitiWall\GraffitiWall\GraffitiWall\bin\EntityFramework.SqlServer.xml
