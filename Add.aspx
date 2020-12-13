@@ -10,7 +10,7 @@
                 <ContentTemplate>
                     <asp:Timer ID="Timer1" runat="server" Interval="100"></asp:Timer>
                 
-                        <asp:Label ID="lblGraffitiAdd" runat="server" CssClass="addGaffitiText"></asp:Label>
+                        <asp:Label ID="lblGraffitiAdd" runat="server" CssClass="addGraffitiText"></asp:Label>
                 
                 </ContentTemplate>
 
